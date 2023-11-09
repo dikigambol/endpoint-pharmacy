@@ -1,4 +1,4 @@
-# endpoint-pharmacy
+# Simple Sales Forecast with ExpressJs and Python
 Clone repository dahulu, lalu install python 3.x dan nodeJs 16.x
 
 1. install lib untuk skrip forecast (python) running,
