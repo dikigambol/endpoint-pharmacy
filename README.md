@@ -1,14 +1,19 @@
 # endpoint-pharmacy
-clone repository dahulu, lalu
-install python 3.x dan nodeJs 16.x
+Clone repository dahulu, lalu install python 3.x dan nodeJs 16.x
 
-1. install lib untuk skrip forecast (python) running, `pip install pandas scikit-learn` di terminal
-2. masih di dalam terminal, masuk ke folder endpoint-pharmacy, lalu running `npm i`
-3. untuk menjalankan project running `node index.js`
+1. install lib untuk skrip forecast (python) running,
+   ```pip install pandas scikit-learn``` di terminal
 
-untuk kenyamanan dan kesehatan mata anda, lakukan pengujian endpoint di postman, pada lokal env
+2. masih di dalam terminal, masuk ke folder endpoint-pharmacy, lalu running ```npm i```
+
+3. untuk menjalankan project running ```node index.js```
+
+Untuk kenyamanan dan kesehatan mata anda, lakukan pengujian endpoint di postman, pada lokal env
+
 dengan alamat: http://localhost:3000/forecast
+
 dengan request body seperti ini:
+```json
 {
     "salesData": [
         { "ds": "2022-01-01", "y": "100" },
@@ -25,3 +30,4 @@ dengan request body seperti ini:
         { "ds": "2022-12-01", "y": "310" }
     ]
 }
+```
